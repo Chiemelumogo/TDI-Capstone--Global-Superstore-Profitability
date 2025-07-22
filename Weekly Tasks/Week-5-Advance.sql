@@ -22,7 +22,7 @@ FROM
     MonthlyRevenue
 
 
-/* 2) List all orders placed during breakfast hours (9:00 AM–11:00 AM) or afternoon lull hours (2:00 PM–5:00 PM), 
+/* 2) List all orders placed during breakfast hours (9:00 AMâ€“11:00 AM) or afternoon lull hours (2:00 PMâ€“5:00 PM), 
 including the order ID, date, time, and name of the pizza ordered.*/
 SELECT 
     od.order_id, date, time, name pizza_name
