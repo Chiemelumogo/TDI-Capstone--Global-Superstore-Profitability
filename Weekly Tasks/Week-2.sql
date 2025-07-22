@@ -69,7 +69,7 @@
 	order by quantity desc
 
 
--- 12) Group the pizzas by size and calculate the total revenue (quantity × price) generated for each size.
+-- 12) Group the pizzas by size and calculate the total revenue (quantity Ã— price) generated for each size.
 	Select size, Round(sum(quantity * price), 2) as Total_revenue
 	From pizzas
 	join order_details
